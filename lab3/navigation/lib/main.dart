@@ -1,17 +1,18 @@
 import 'package:flutter/material.dart';
+import 'package:navigation/checkerboard.dart';
 
 void main() {
-  runApp(const navButton());
+  runApp(const MyApp());
 }
 
-class navButton extends StatefulWidget {
-  const navButton({super.key});
+class MyApp extends StatefulWidget {
+  const MyApp({super.key});
 
   @override
-  State<navButton> createState() => _navButtonState();
+  State<MyApp> createState() => _MyAppState();
 }
 
-class _navButtonState extends State<navButton> {
+class _MyAppState extends State<MyApp> {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
@@ -34,6 +35,12 @@ class _navButtonState extends State<navButton> {
                     //style: ButtonStyle(padding: ),
                     child: const Text('Lab Activity 1'),
                     onPressed: () {
+                      Navigator.push(
+                        context,
+                        MaterialPageRoute(
+                          builder: (context) => const board(),
+                        ),
+                      );
                       // go to lab 1
                     },
                   ),

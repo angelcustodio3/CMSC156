@@ -1,13 +1,13 @@
 import 'package:flutter/material.dart';
 
-class board extends StatefulWidget {
-  const board({super.key});
+class Checkerboard extends StatefulWidget {
+  const Checkerboard({super.key});
 
   @override
-  State<board> createState() => _boardState();
+  State<Checkerboard> createState() => _CheckerboardState();
 }
 
-class _boardState extends State<board> {
+class _CheckerboardState extends State<Checkerboard> {
   @override
   Widget build(BuildContext context) {
     return Container();

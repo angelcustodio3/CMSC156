@@ -23,17 +23,6 @@ class _MyAppState extends State<MyApp> {
           title: Text('Lab Activity 3'),
           centerTitle: true,
         ),
-        body: Column(
-          children: [
-            Padding(padding: const EdgeInsets.all(10)),
-
-            // checkerboard
-            GestureDetector(
-                //child: Text,
-                )
-            //slider
-          ],
-        ),
       ),
     );
   }

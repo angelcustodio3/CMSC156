@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:navigation/checkerboard.dart';
-import 'package:navigation/slider.dart';
+//import 'package:navigation/checkerboard.dart';
+//import 'package:navigation/slider.dart';
 
 void main() {
   runApp(const MyApp());
@@ -22,6 +22,17 @@ class _MyAppState extends State<MyApp> {
         appBar: AppBar(
           title: Text('Lab Activity 3'),
           centerTitle: true,
+        ),
+        body: Column(
+          children: [
+            Center(
+
+                // go to lab 1 button
+
+                // go to lab 2 button
+
+                )
+          ],
         ),
       ),
     );

@@ -10,6 +10,12 @@ class Checkerboard extends StatefulWidget {
 class _CheckerboardState extends State<Checkerboard> {
   @override
   Widget build(BuildContext context) {
-    return Container();
+    return MaterialApp(
+      home: Scaffold(
+        appBar: AppBar(
+          title: Text('Checkerboard'),
+        ),
+      ),
+    );
   }
 }
